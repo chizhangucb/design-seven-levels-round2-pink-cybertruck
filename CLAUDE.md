@@ -4,7 +4,7 @@ Context for future Claude Code sessions in this repo.
 
 ## What this repo is
 
-Round 2 of the "7 Levels of Building Claude Code Websites" experiment (round 1: yellow iPhone, `~/experimental/design-yellow-iphone-web`, published at https://github.com/chizhangucb/seven-levels-round1-yellow-iphone). Same 7-level ladder, same Fable 5 vs Opus 4.8 A/B with identical prompts, new product: a **pink Cybertruck** selling site. Powers a 60-minute talk on leveling up website quality in Claude Code.
+Round 2 of the "7 Levels of Building Claude Code Websites" experiment (round 1: yellow iPhone, `~/experimental/design-yellow-iphone-web`, published at https://github.com/chizhangucb/design-seven-levels-round1-yellow-iphone). Same 7-level ladder, same Fable 5 vs Opus 4.8 A/B with identical prompts, new product: a **pink Cybertruck** selling site. Powers a 60-minute talk on leveling up website quality in Claude Code.
 
 **Stage: designed, not yet run** (design completed 2026-07-12). The full procedure is in `docs/runbook.md`; the recommended hands-off mode (one orchestrator session driving all levels via headless `claude -p` — mechanics verified 2026-07-12) is in `docs/orchestrated-run.md`, which then chains into `docs/publish-plan.md` (tutorial site + metrics + Vercel deploy, adapting round 1's code) and `docs/talk-skeleton.md` (60-min talk, ⟨TBD⟩ slots filled from results). Run sessions must follow them. Production deploys and GitHub publishing require Chi's explicit go-ahead — preview deploys only by default. Do not "improve" the prompts in `docs/prompts/` — their casual phrasing (typos included) is verbatim-adapted from round 1 and is part of the experiment.
 
