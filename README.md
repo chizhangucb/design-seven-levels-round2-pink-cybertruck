@@ -36,6 +36,10 @@ The same website built seven times, each level one technique better — and the 
 - [skill/design-language/](skill/design-language/) — the level-7 extraction skill, byte-identical to round 1 (checksums in the runbook).
 - `references/` — where the run assets land (gitignored trial dirs `fable-trials/` and `opus-trials/` are created on run day).
 
+## The framework
+
+This round was produced by running a generalized, product-agnostic version of the experiment — the prompt pack, runbook, orchestration harness, and metrics methodology live at [seven-levels-framework](https://github.com/chizhangucb/seven-levels-framework). Pick a product, fill the placeholders, run your own round.
+
 ## Credit
 
 Framework and original prompts from Jack Roberts' video. Skills: [power-design](https://github.com/ItsssssJack/power-design), [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill). Tools: [Firecrawl](https://firecrawl.dev), [OpenArt](https://openart.ai), [21st.dev](https://21st.dev), [three.js](https://threejs.org).
