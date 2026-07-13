@@ -113,7 +113,7 @@ Resist the urge to polish beyond the scripted follow-ups — extra prompts conta
    (Rename to `level-N.html` inside `demos/` if following round 1's naming. Copy any poster/extra assets a model generated alongside.)
 2. Generate checksums: `cd demos && shasum -a 256 fable/* opus/* > CHECKSUMS`.
 3. Preserve process evidence worth keeping (Firecrawl scrapes, L7 extraction kit) into `process-artifacts/`.
-4. Mine metrics from `~/.claude/projects/-Users-chizhang-experimental-design-pink-cybertruck-web-fable-trials/*.jsonl` (and `...-opus-trials`) per the methodology in `CLAUDE.md`. The run log's session IDs make the session→level mapping trivial this time.
+4. Mine metrics from the trial-dir transcript project dirs (during the run: `~/.claude/projects/-...-web-fable-trials/` and `...-web-opus-trials/`; after post-run cleanup these were merged into `~/.claude/projects/-Users-chizhang-experimental-design-pink-cybertruck-web/`) per the methodology in `CLAUDE.md`. The run log's session IDs make the session→level mapping trivial this time.
 5. **Cleanup (kills the duplication):** once `demos/CHECKSUMS` is generated and every copied file is verified byte-identical to its trial-dir original (`diff -r` or re-checksum both sides), the trial dirs are safe to delete — `demos/` + the transcripts under `~/.claude/projects/` are the durable evidence. (Round 1 did exactly this.) Keep them until after metrics mining if you want a belt-and-suspenders backup.
 6. Only then: build the tutorial materials and deploy per `docs/publish-plan.md` (Phase 2–3 of the orchestrated kickoff), filling `docs/talk-skeleton.md` from actual results.
 

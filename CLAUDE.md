@@ -27,7 +27,7 @@ Round 2 of the "7 Levels of Building Claude Code Websites" experiment (round 1: 
 
 ## Metrics methodology (for post-run analysis)
 
-Mine from `~/.claude/projects/-Users-chizhang-experimental-design-pink-cybertruck-web-fable-trials/*.jsonl` (and `...-opus-trials`); session→level map comes from the run log.
+Mine from `~/.claude/projects/-Users-chizhang-experimental-design-pink-cybertruck-web/*.jsonl` (post-run consolidation: the former `...-web-fable-trials` and `...-web-opus-trials` transcript dirs were merged into this one on 2026-07-13); session→level map comes from the run log.
 
 - **Tokens:** dedupe assistant entries by `message.id` (streaming writes one JSONL line per content block, each repeating the same usage — summing raw lines double-counts).
 - **Pricing:** API-equivalent at list price — round-1 values were Fable 5 $10/$50 per MTok in/out, Opus 4.8 $5/$25; cache read 0.1×, cache write 2× (1-hour TTL — check `usage.cache_creation.ephemeral_1h_input_tokens`, do NOT assume the 1.25× 5-minute rate). **Re-verify all pricing via the claude-api skill at analysis time; never from memory.**

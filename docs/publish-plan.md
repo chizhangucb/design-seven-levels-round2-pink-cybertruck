@@ -26,7 +26,7 @@ window.SEVEN_LEVELS_METRICS = {
 ```
 
 - **Primary source:** the orchestrator's captured JSON results (`total_cost_usd`, `duration_ms`, session IDs) in `docs/run-log.md` — no transcript reverse-engineering needed this round.
-- **`calls` (API calls) and machine-time refinement:** mine transcripts under `~/.claude/projects/-...-fable-trials/` per the methodology in `CLAUDE.md` (dedupe by `message.id`; queue-operation timestamp gotcha; re-verify pricing via the claude-api skill).
+- **`calls` (API calls) and machine-time refinement:** mine transcripts under `~/.claude/projects/-Users-chizhang-experimental-design-pink-cybertruck-web/` (consolidated post-run from the `-...-fable-trials`/`-...-opus-trials` project dirs) per the methodology in `CLAUDE.md` (dedupe by `message.id`; queue-operation timestamp gotcha; re-verify pricing via the claude-api skill).
 - **Note:** `total_cost_usd` from the CLI and the transcript-mined API-equivalent may differ slightly — compute the transcript-mined number for comparability with round 1, and say which is which.
 - **No total rows** in per-level tables.
 - Deck conventions from round 1: metrics data is **duplicated inline** in the slide chart script — update both places when numbers change; adding a slide renumbers `#/N` deep links; a 4-col table once overflowed small viewports (`table-layout:fixed` fixed it); bust local preview cache with `?v=N`.
