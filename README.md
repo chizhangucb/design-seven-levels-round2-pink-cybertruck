@@ -2,7 +2,7 @@
 
 The same website built seven times, each level one technique better — and the whole ladder run **twice with identical prompts**: once on **Claude Fable 5**, once on **Claude Opus 4.8**. Every level's output is preserved verbatim. Round 1 sold a [yellow iPhone](https://github.com/chizhangucb/seven-levels-round1-yellow-iphone); this round sells a **pink Cybertruck** — and new this round, **the experiment ran itself**: one orchestrator session drove all 14 level-sessions headlessly (`claude -p`), verified and checksummed each level, then built the site and deck below.
 
-**Live site: https://claude-code-seven-levels-pink-cyber.vercel.app** — every level's writeup with the exact prompts, all 14 demos, a Fable-vs-Opus [compare view](https://claude-code-seven-levels-pink-cyber.vercel.app/compare) with synced scrolling and per-run metrics, and the [talk deck](https://claude-code-seven-levels-pink-cyber.vercel.app/slides).
+**Live site: https://seven-levels-round2-pink-cyber.vercel.app** — every level's writeup with the exact prompts, all 14 demos, a Fable-vs-Opus [compare view](https://seven-levels-round2-pink-cyber.vercel.app/compare) with synced scrolling and per-run metrics, and the [talk deck](https://seven-levels-round2-pink-cyber.vercel.app/slides).
 
 ## The ladder
 
